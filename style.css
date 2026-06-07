@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    animation: slideDown 1s ease;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+    padding: 12px 25px;
+    background: #00c3ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #008bb5;
+    transform: scale(1.1);
+}
+
+/* SECTIONS */
+.section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+/* ANIMATION */
+@keyframes slideDown {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
