@@ -1,8 +1,28 @@
-# My Portfolio
+<p align="center">
+  <img src="assets/banner.png" width="100%" />
+</p>
 
-This is my personal portfolio website built using HTML, CSS, and JavaScript.
+# 👋 Hi, I'm Nasar Shahzad  
 
-## Skills
-- HTML
-- CSS
-- JavaScript
+### Frontend Web Developer
+
+I build responsive and modern websites using HTML, CSS, and JavaScript.
+
+## 🚀 About Me
+
+- 🎯 Passionate Frontend Developer  
+- 🌱 Learning advanced JavaScript & React  
+- 💼 Looking for Internship  
+- 📍 Pakistan  
+
+## 🛠️ Skills
+
+- HTML  
+- CSS  
+- JavaScript  
+- Responsive Design  
+
+## 📫 Contact
+
+- Email: nasarshahzad45@gmail.com
+- LinkedIn: www.linkedin.com/in/nasar-shahzad
