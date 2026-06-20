@@ -25,4 +25,7 @@ I build responsive and modern websites using HTML, CSS, and JavaScript.
 ## 📫 Contact
 
 - Email: nasarshahzad45@gmail.com
-- LinkedIn: www.linkedin.com/in/nasar-shahzad
+- LinkedIn: https://www.linkedin.com/in/nasar-shahzad
+
+## Live Demo
+https://nasar-dev.github.io/my-portfolio/
