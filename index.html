@@ -2,43 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasar Shahzad | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- HERO SECTION -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Nasar.dev</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <section class="hero">
-    <h1>Hi, I'm Nasar Shahzad</h1>
-    <p>Front-End Developer | HTML | CSS | JavaScript</p>
-    <a href="#contact" class="btn">Hire Me</a>
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Nasar Shahzad</span></h1>
+        <h3>Front-End Developer</h3>
+        <p>I create responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and jQuery.</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+    </div>
 </section>
 
-<!-- ABOUT -->
-<section class="section">
+<section class="section" id="about">
     <h2>About Me</h2>
-    <p>I am a Front-End Developer skilled in HTML, CSS, and JavaScript. I build responsive and user-friendly websites and continuously improve my skills through projects. My goal is to become a Full Stack Developer.</p>
+    <p>
+        I am a Front-End Developer with skills in HTML, CSS, JavaScript, Bootstrap and jQuery.
+        I enjoy creating clean, responsive and modern websites. I am continuously improving my skills
+        through real-world projects and my goal is to become a Full Stack Developer.
+    </p>
 </section>
 
-<!-- SKILLS -->
-<section class="section">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>jQuery</li>
-    </ul>
+<section class="section" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-box">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">jQuery</div>
+        <div class="skill-card">Responsive Design</div>
+    </div>
 </section>
 
-<!-- CONTACT -->
-<section class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Phone No: 03089111129</p>
-    <p>Email: nasarshahzad45@gmail.com</p>  
+<section class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects-box">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website built with HTML, CSS and responsive design.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator App</h3>
+            <p>A simple calculator app using HTML, CSS and JavaScript functionality.</p>
+            <a href="https://nasar-dev.github.io/calculator-js/" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <p>A task management app for adding, deleting and managing daily tasks.</p>
+            <a href="https://nasar-dev.github.io/todo-app-with-localstorage/" target="_blank">View Project</a>
+        </div>
+    </div>
 </section>
+
+<section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in working together? Feel free to contact me.</p>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> nasarshahzad45@gmail.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nasar Shahzad | Front-End Developer</p>
+</footer>
 
 </body>
 </html>
